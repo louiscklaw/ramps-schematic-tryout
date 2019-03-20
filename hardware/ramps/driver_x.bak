@@ -1,0 +1,220 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-components:A4988_MODULE U?
+U 1 1 5C9260C7
+P 4900 3500
+F 0 "U?" H 4900 4115 50  0000 C CNN
+F 1 "A4988_MODULE" H 4900 4024 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 4900 3550 50  0001 C CNN
+F 3 "" H 4900 3550 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103,0805 R?
+U 1 1 5C92625E
+P 4000 2900
+F 0 "R?" H 4059 2946 50  0000 L CNN
+F 1 "R103,0805" H 4059 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 2900 50  0001 C CNN
+F 3 "~" H 4000 2900 50  0001 C CNN
+	1    4000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R104,0805 R?
+U 1 1 5C9263D6
+P 3600 2900
+F 0 "R?" H 3542 2946 50  0000 R CNN
+F 1 "R104,0805" H 3542 2855 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 2900 50  0001 C CNN
+F 3 "~" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5C9266F1
+P 3350 3350
+F 0 "J?" H 3400 3667 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 3400 3576 50  0000 C CNN
+F 2 "" H 3350 3350 50  0001 C CNN
+F 3 "~" H 3350 3350 50  0001 C CNN
+	1    3350 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C926786
+P 5650 3950
+F 0 "#PWR?" H 5650 3700 50  0001 C CNN
+F 1 "GND" H 5655 3777 50  0000 C CNN
+F 2 "" H 5650 3950 50  0001 C CNN
+F 3 "" H 5650 3950 50  0001 C CNN
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9267F3
+P 5800 3250
+F 0 "#PWR?" H 5800 3000 50  0001 C CNN
+F 1 "GND" V 5805 3122 50  0000 R CNN
+F 2 "" H 5800 3250 50  0001 C CNN
+F 3 "" H 5800 3250 50  0001 C CNN
+	1    5800 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C92688A
+P 5650 3050
+F 0 "#PWR?" H 5650 2900 50  0001 C CNN
+F 1 "+12V" H 5665 3223 50  0000 C CNN
+F 2 "" H 5650 3050 50  0001 C CNN
+F 3 "" H 5650 3050 50  0001 C CNN
+	1    5650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C926998
+P 5650 3750
+F 0 "#PWR?" H 5650 3600 50  0001 C CNN
+F 1 "VCC" V 5667 3878 50  0000 L CNN
+F 2 "" H 5650 3750 50  0001 C CNN
+F 3 "" H 5650 3750 50  0001 C CNN
+	1    5650 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3750 5400 3750
+Wire Wire Line
+	5400 3850 5650 3850
+Wire Wire Line
+	5650 3850 5650 3950
+Wire Wire Line
+	5650 3050 5650 3150
+Wire Wire Line
+	5650 3150 5400 3150
+Wire Wire Line
+	5800 3250 5400 3250
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C926C14
+P 6200 3450
+F 0 "J?" H 6280 3442 50  0000 L CNN
+F 1 "Conn_01x04" H 6280 3351 50  0000 L CNN
+F 2 "" H 6200 3450 50  0001 C CNN
+F 3 "~" H 6200 3450 50  0001 C CNN
+	1    6200 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3350 6000 3350
+Wire Wire Line
+	5400 3450 6000 3450
+Wire Wire Line
+	5400 3550 6000 3550
+Wire Wire Line
+	5400 3650 6000 3650
+Text Label 3650 3750 0    50   ~ 0
+X-STEP
+Text Label 3650 3850 0    50   ~ 0
+X-DIR
+Wire Wire Line
+	3650 3850 4400 3850
+Wire Wire Line
+	3650 3750 4400 3750
+Wire Wire Line
+	4400 3550 3900 3550
+Wire Wire Line
+	3900 3550 3900 3650
+Wire Wire Line
+	3900 3650 4400 3650
+Wire Wire Line
+	3550 3250 3600 3250
+Wire Wire Line
+	3550 3350 4400 3350
+Wire Wire Line
+	3550 3450 4400 3450
+$Comp
+L power:VCC #PWR?
+U 1 1 5C927525
+P 2750 3150
+F 0 "#PWR?" H 2750 3000 50  0001 C CNN
+F 1 "VCC" H 2767 3323 50  0000 C CNN
+F 2 "" H 2750 3150 50  0001 C CNN
+F 3 "" H 2750 3150 50  0001 C CNN
+	1    2750 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3150 2750 3250
+Wire Wire Line
+	2750 3450 3050 3450
+Wire Wire Line
+	3050 3250 2750 3250
+Connection ~ 2750 3250
+Wire Wire Line
+	2750 3250 2750 3350
+Wire Wire Line
+	3050 3350 2750 3350
+Connection ~ 2750 3350
+Wire Wire Line
+	2750 3350 2750 3450
+Wire Wire Line
+	3600 3000 3600 3250
+Connection ~ 3600 3250
+Wire Wire Line
+	3600 3250 4400 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5C928085
+P 3600 2700
+F 0 "#PWR?" H 3600 2450 50  0001 C CNN
+F 1 "GND" H 3605 2527 50  0000 C CNN
+F 2 "" H 3600 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0001 C CNN
+	1    3600 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2700 3600 2800
+$Comp
+L power:VCC #PWR?
+U 1 1 5C92853F
+P 4000 2700
+F 0 "#PWR?" H 4000 2550 50  0001 C CNN
+F 1 "VCC" H 4017 2873 50  0000 C CNN
+F 2 "" H 4000 2700 50  0001 C CNN
+F 3 "" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2700 4000 2800
+Wire Wire Line
+	4400 3150 4000 3150
+Wire Wire Line
+	4000 3150 4000 3000
+Text Label 3750 3150 0    50   ~ 0
+X-EN
+Wire Wire Line
+	3750 3150 4000 3150
+Connection ~ 4000 3150
+$EndSCHEMATC
