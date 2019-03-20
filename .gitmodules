@@ -1,0 +1,9 @@
+[submodule "_ref/ramps-1.6"]
+	path = _ref/ramps-1.6
+	url = https://github.com/bigtreetech/ramps-1.6.git
+[submodule "_ref/Ramps-1.4.2"]
+	path = _ref/Ramps-1.4.2
+	url = https://github.com/GermanRepRap/Ramps-1.4.2.git
+[submodule "_ref/RAMPS_1.7"]
+	path = _ref/RAMPS_1.7
+	url = https://github.com/MrAlvin/RAMPS_1.7.git
